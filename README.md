@@ -49,6 +49,7 @@ pip install -r requirements.txt
 cd ${ComfyUI}/custom_nodes
 git clone https://github.com/Tencent/HunyuanDiT.git
 cp -r HunyuanDiT/comfyui-hydit ./
+cp -rf HunyuanDiT/comfyui-hydit/controlnet_support/* ../
 rm -rf HunyuanDiT
 cd ${ComfyUI}/custom_nodes/comfyui-hydit
 
