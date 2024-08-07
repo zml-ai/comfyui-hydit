@@ -78,7 +78,7 @@ python main.py --listen --port 80
 ### Controlnet for HunyuanDit1.2
 1. download base model and put it to `ComfyUI/models/checkpoints`:  
 https://huggingface.co/comfyanonymous/hunyuan_dit_comfyui/blob/main/hunyuan_dit_1.2.safetensors  
-2. download controlnet modes and put them to `ComfyUI/models/controlnet/hunyuandit`  
+2. download controlnet modes and put them to `ComfyUI/models/controlnet/hunyuandit`，https://huggingface.co/Tencent-Hunyuan/HYDiT-ControlNet-v1.2/tree/main  
 3. use this workflow file to run it, https://github.com/user-attachments/files/16513972/hunyuan-controlnet-workflow.json
 <img width="1380" alt="image" src="https://github.com/user-attachments/assets/85404e17-61a9-4fed-946b-028963894898">
 
